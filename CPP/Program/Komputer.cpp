@@ -19,7 +19,8 @@ private:
   HybridStorage hybridStorage;
 
 public:
-  Komputer(){
+  Komputer()
+  {
   }
 
   Komputer(string nama, Cpu cpu, vector<Ram> ramList, HybridStorage hybridstorage)
@@ -75,6 +76,7 @@ public:
     return this->hybridStorage;
   }
 
-  ~Komputer(){
+  ~Komputer()
+  {
   }
 };

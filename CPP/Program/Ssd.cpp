@@ -1,4 +1,4 @@
-#pragma once 
+#pragma once
 #include <iostream>
 #include <string>
 #include "Komponen.cpp"
@@ -10,7 +10,7 @@ class Ssd : public Komponen
 private:
   int kapasitasGB;
   string tipeDrive;
-  
+
 public:
   Ssd()
   {
@@ -45,4 +45,4 @@ public:
   ~Ssd()
   {
   }
-};  
+};
